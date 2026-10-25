@@ -9,7 +9,7 @@ This free, open-source Agent Plugins package contains one urban-planning skill a
 
 Endpoint: **https://urbangametheory.xyz/mcp** · Transport: **Streamable HTTP** · Authentication: **none**.
 
-Clients supporting Agent Plugins discover `plugin.json`, `mcp.json` and `skills/`. Cursor supports this format; see its [plugin documentation](https://cursor.com/docs/reference/plugins). Install this repository using your client's plugin installation flow. Directory review and marketplace approval are separate from publishing this source.
+Clients supporting Agent Plugins discover `plugin.json`, `mcp.json` and `skills/`. Open Plugins clients can use `.mcp.json`, which points to the same hosted endpoint. Cursor supports this format; see its [plugin documentation](https://cursor.com/docs/reference/plugins). Install this repository using your client's plugin installation flow. Directory review and marketplace approval are separate from publishing this source.
 
 For a client that accepts a custom MCP server instead, add the endpoint above. A typical MCP configuration is:
 
